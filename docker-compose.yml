@@ -1,0 +1,6 @@
+services:
+  server:
+    build: .
+    container_name: web_server
+    ports:
+      - ${HTTP_PORT}:${HTTP_PORT}
